@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(230, 202, 205);
+           
+}
