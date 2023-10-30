@@ -11,9 +11,22 @@ s * {
     ;
 }
 
-.forms {    
+.title {    
     text-align: center;
+    animation: fadeIn 2s;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 
 h1 {
     text-align: center;
@@ -42,10 +55,10 @@ h1 {
     position: relative;
    height: 400px;
     width: 15%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(206, 145, 151);
     margin: 2%;
     padding: 2%;
-    box-shadow: 10px 5px 5px rgb(170, 170, 170);
+    box-shadow: 10px 5px 5px rgb(131, 92, 92);
     overflow: hidden;
     transition: all 0.3s;
     transition-duration: 5ms;
@@ -53,4 +66,78 @@ h1 {
 
 .card-img {
     width: 40%;
+    background-color: rgb(206, 145, 151);
+}
+
+h3 {
+    font-size: large;
+    text-align: center;
+    background-color: rgb(206, 145, 151);
+}
+
+#I:hover {
+    transform: skewX(10deg);
+}
+
+#II:hover {
+    transform: rotateX(20deg);
+}
+
+#III:hover {
+    transform: rotate3d(2, 2, 2, 5deg);
+}
+
+#IV:hover {
+    transform: translate3d(4px, 5%, 1em);
+}
+
+#V:hover {
+    transform: scale(1.1);
+}
+
+#VI:hover {
+    transform: rotateZ(10deg);
+}
+
+#VII:hover {
+    transform: scale(1.1);
+}
+
+#VIII:hover {
+    transform: skewX(10deg);
+}
+
+#IX:hover {
+    transform: rotateX(20deg);
+}
+
+#X:hover {
+    transform: skewX(10deg);
+}
+
+#XI:hover {
+    transform: rotate3d(2, 2, 2, 5deg);
+}
+
+#XII:hover {
+    transform: translate3d(4px, 5%, 1em);
+}
+
+
+
+
+@media screen and (max-width:768px)  {
+    .card {
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px)  {
+    .card {
+        width: 40%;
+    }
+} 
+@media screen and (max-width:390px)  {
+    .card {
+        width: 90%;
+    }
 }

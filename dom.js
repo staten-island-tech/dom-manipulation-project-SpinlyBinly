@@ -1,4 +1,4 @@
-//Step 1 (Create an object called "DOMSelectors" to hold DOM Selectors)
+ //Step 1 (Create an object called "DOMSelectors" to hold DOM Selectors)
 const DOMSelectors = {
   form: document.querySelector("#form"),
   bookTitle: document.querySelector("#bookTitle"),
@@ -18,15 +18,14 @@ DOMSelectors.form.addEventListener("submit", function (event) {
   console.log(DOMSelectors.bookTitle.value),
 });
 
-//Step 4 (Create a function that clears he input fields after injecting the object)
+//Step 4 (Create a function that clears the input fields after injecting the object)
 DOMSelectors.bookTitle.value = "";
 
 //Step 5 (Create a function to remove an object after they have been created)
 function remove(){
   let buttons = document.querySelectorAll("button");
-  buttons.forEach((btn))=>
-   btn.addEventListener("click", function (event) {
+  buttons.forEach((btn)) => btn.addEventListener("click", function (event) {
     console.log(event.target.parentElement.parentElement);
    })
   }
-  remove()
+  remove() 
