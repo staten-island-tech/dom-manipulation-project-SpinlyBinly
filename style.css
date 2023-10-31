@@ -18,6 +18,7 @@ s * {
     display: flex;
    flex-direction: column;
    align-items: center;
+   font-size: medium;
 }
 
 h1 {
@@ -33,6 +34,7 @@ h1 {
     align-items: center;
     text-align: center;
     background-color: rgb(145, 171, 211);
+    flex-direction: row;
            
 }
 
@@ -44,6 +46,8 @@ h1 {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     position: relative;
    height: 400px;
     width: 15%;
@@ -66,4 +70,3 @@ h3 {
     text-align: center;
     background-color: rgb(206, 145, 151);
 }
-
