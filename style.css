@@ -1,43 +1,40 @@
 body,
 html,
-s * {
+* {
     font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(145, 171, 211);
+    background-color: rgb(171, 201, 235);
+
+
 }
 
 .forms{
     display: flex;
-   flex-direction: column;
-   align-items: center;
+   flex-direction: row;
+   align-items: center;   
    font-size: medium;
+   background-color: rgb(171, 201, 235);
+
 }
 
 .container {
+    flex-direction: row;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
     background-color: rgb(145, 171, 211);
-           
-}
 
-.card-title {
-    margin: 1rem 0;
-    font-size: 2.2rem;
-    text-align: center;
-    background-color: rgb(171, 201, 235);
 }
-
 .card {
     display: flex;
     flex-direction: column;
     position: relative;
    height: 400px;
-    width: 15%;
+    width: 25%;
     background-color: rgb(171, 201, 235);
     margin: 2%;
     padding: 2%;
@@ -47,13 +44,3 @@ s * {
     transition-duration: 5ms;
 }
 
-.card-img {
-    width: 40%;
-    background-color: rgb(206, 145, 151);
-}
-
-h3 {
-    font-size: large;
-    text-align: center;
-    background-color: rgb(206, 145, 151);
-}
