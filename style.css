@@ -1,13 +1,13 @@
 body,
 html,
 * {
-    font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(171, 201, 235);
-
-
+    background-color:EDF6F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size:large ;
+    font-weight: 900;
 }
 
 .forms{
@@ -15,10 +15,13 @@ html,
    flex-direction: row;
    align-items: center;   
    font-size: medium;
-   background-color: rgb(171, 201, 235);
-
+color
 }
 
+h2{
+    background-color: 98c1d9;
+    color: 293241;
+}
 .container {
     flex-direction: row;
     display: flex;
@@ -26,21 +29,23 @@ html,
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    background-color: rgb(145, 171, 211);
-
 }
 .card {
     display: flex;
     flex-direction: column;
     position: relative;
-   height: 400px;
-    width: 25%;
-    background-color: rgb(171, 201, 235);
+   height: 350px;
+    width: 20%;
+    background-color: 98c1d9;
     margin: 2%;
     padding: 2%;
-    box-shadow: 10px 5px 5px rgb(85, 101, 126);
+    box-shadow: 10px 5px 5px 3d5a80;
     overflow: hidden;
     transition: all 0.3s;
     transition-duration: 5ms;
+    border-radius: 30px;
 }
 
+.btn{
+    background-color: 83C5BE;
+}
