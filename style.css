@@ -4,23 +4,22 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:EDF6F9;
+    background-color:#d9dcd6;
     font-family: 'Montserrat', sans-serif;
     font-size:large ;
     font-weight: 900;
 }
 
 .forms{
-    display: flex;
+    display: flex;    
    flex-direction: row;
-   align-items: center;   
-   font-size: medium;
-color
+    justify-content: center;  
+    font-size: medium;
 }
 
 h2{
-    background-color: 98c1d9;
-    color: 293241;
+    background-color: #598392;
+    color: #01161e;
 }
 .container {
     flex-direction: row;
@@ -35,17 +34,18 @@ h2{
     flex-direction: column;
     position: relative;
    height: 350px;
-    width: 20%;
-    background-color: 98c1d9;
+    width: 27%;
+    background-color: #598392;
     margin: 2%;
     padding: 2%;
-    box-shadow: 10px 5px 5px 3d5a80;
+    box-shadow: #000000;
     overflow: hidden;
     transition: all 0.3s;
     transition-duration: 5ms;
     border-radius: 30px;
 }
 
-.btn{
-    background-color: 83C5BE;
+.button{
+    background-color: #124559;
+    color: #124559;
 }
