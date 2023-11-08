@@ -10,12 +10,11 @@ const DOMSelectors = {
 };
 
 //Step 4 (Create a function that clears the input fields after injecting the object)
-function clearFields(){
+function clearFields() {
   DOMSelectors.bookTitle.value = "";
   DOMSelectors.bookAuthor.value = "";
   DOMSelectors.bookCover.value = "";
 }
-
 
 //Step 2 (Create a function that creates an object and calls the following functions)
 function makeCard() {
@@ -33,16 +32,15 @@ function makeCard() {
 DOMSelectors.formID.addEventListener("submit", function (event) {
   event.preventDefault();
   makeCard();
-  clearFields()
+  clearFields();
   //Step 5 (Create a function to remove an object after they have been created)
-function remove() {
-  let buttons = document.querySelectorAll("button");
-  buttons.forEach((btn) => {
-    btn.addEventListener("click", function (event) {
-    event.currentTarget.parentElement.remove();
+  function remove() {
+    let buttons = document.querySelectorAll("button");
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", function (event) {
+        event.currentTarget.parentElement.remove();
+      });
     });
-  });
-}
-remove();
+  }
+  remove();
 });
-
